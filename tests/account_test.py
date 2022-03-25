@@ -28,8 +28,8 @@ class TestAccount(unittest.TestCase):
 
 
     # Test an Account can return a list of Profiles
-    def test_return_profiles(self):
+    def test_get_profiles(self):
         self.account_1.add_profile(self.profile_1)
         self.account_1.add_profile(self.profile_2)
-        self.assertEqual(2, len(self.account_1.list_profiles()))
+        self.assertEqual(2, len(self.account_1.get_profiles()))
    

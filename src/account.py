@@ -13,5 +13,5 @@ class Account:
         self.archived_profiles.append(old_profile)
         self.profiles.remove(old_profile)
     
-    def list_profiles(self):
+    def get_profiles(self):
         return self.profiles
