@@ -20,7 +20,7 @@ class TestProfile(unittest.TestCase):
 
 
     # Test a Profile can remove a given Movie from favourites
-    def test_remove_film(self):
+    def test_remove_movie(self):
         self.profile_1.add_favourite(self.movie_1)
         self.profile_1.add_favourite(self.movie_2)
         self.profile_1.remove_favourite(self.movie_1)
